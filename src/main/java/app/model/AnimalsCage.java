@@ -12,7 +12,7 @@ public class AnimalsCage {
     private Animal animal;
 
     @Autowired
-    private Timer timer = new Timer();
+    private Timer timer;
 
     public Timer getTimer() {
         return timer;
